@@ -1,0 +1,30 @@
+{
+    "name": "mangakakalot",
+    "icon": "https://ww1.mangakakalot.tv/static/images/favicon.ico",
+    "url": "https://ww1.mangakakalot.tv/",
+    "index": "index.js",
+    "book": "book.js",
+    "chapter": "chapter.js",
+    "categories": [
+        {
+            "title": "Home",
+            "id": "home",
+            "url": "https://ww1.mangakakalot.tv/"
+        },
+        {
+            "title": "Latest Release",
+            "id": "last_release",
+            "url": "https://ww1.mangakakalot.tv/manga_list/?type=latest&category=all&state=all&page={1}"
+        },
+        {
+            "title": "Hot Manga",
+            "id": "hot_manga",
+            "url": "https://ww1.mangakakalot.tv/manga_list/?type=topview&category=all&state=all&page={1}"
+        },
+        {
+            "title": "New Manga",
+            "id": "new_manga",
+            "url": "https://ww1.mangakakalot.tv/manga_list/?type=newest&category=all&state=all&page={1}"
+        }
+    ]
+}
