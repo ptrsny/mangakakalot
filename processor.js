@@ -34,9 +34,10 @@ class MangaProcesser extends Processor {
 
             this.loading = false;
         } catch (e) {
-            console.log(`err ${e}\n${e.stack}`);
+            showToast(`err ${e}\n${e.stack}`);
             this.loading = false;
         }
+        this.save(true, {});
     }
 
     async fetch(url) {
